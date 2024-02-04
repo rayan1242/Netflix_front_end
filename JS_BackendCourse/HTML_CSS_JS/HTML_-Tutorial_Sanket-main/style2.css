@@ -1,0 +1,99 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;    
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+
+ 
+}
+
+@media screen and (min-width: 500px) {
+    #parent{
+        display:flex;
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+nav, footer{
+    flex-shrink: 0;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 2px;
+
+    @media screen and (min-width: 500px) {
+        
+            display:flex;
+            flex-wrap: wrap;
+    
+        
+        
+    }
+}
+
+
+
+section{
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+ }
+
+
+#logo {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 80vw;
+    height:10vw;
+    position: relative;
+    bottom:70px;
+   
+}
+
+#logo p{
+    height: 82px;
+    width: 272px;
+    font-size: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+
+#search{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 50px;
+}
+
+#search input{
+    z-index: 100;
+    padding-inline-start: 52px;
+    width: 561px;
+    height:44px;
+    border: none;
+    border-radius: 22px;
+    box-shadow : 1px 1px 1px 1px gainsboro;
+}

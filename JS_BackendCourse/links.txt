@@ -1,0 +1,34 @@
+class official codes =>
+{
+ 	https://github.com/singhsanket143/Node-Dec-2022
+}
+
+
+Notes =>
+{
+	https://drive.google.com/drive/folders/1oyNslOk-B1Hj4W3IfF1ZJ6MCTNOODqt2
+
+	https://github.com/xoraus/Backend-Specialization
+
+	https://github.com/Sachin-RJ7/JS-Backend	
+
+}
+
+HTML & CSS Codes =>
+{
+	https://github.com/sarthak-1998/HTML_-Tutorial_Sanket	
+}
+
+JS_DOM_DocsLink
+{
+	https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model		
+}
+
+NodeJS and How Internet Works(MVC architecture)
+{
+	https://github.com/thatbeautifuldream/backend-notes
+
+	https://rishavbharti.medium.com/mvc-architecture-47fb9aa7fdec
+
+	https://medium.com/storyblocks-engineering/web-architecture-101-a3224e126947
+}

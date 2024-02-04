@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    background-color: black;
+}
+
+
+.logo{
+    padding-bottom:10px ;
+}
+
+.img-logo{
+    height: 30px;
+    margin-left: 25px;
+}
+
+.video{
+    border-color: white;
+    padding-bottom: 50px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

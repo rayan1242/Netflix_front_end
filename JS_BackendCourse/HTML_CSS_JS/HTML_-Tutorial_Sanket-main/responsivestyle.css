@@ -1,0 +1,37 @@
+body {
+    background-color: pink;
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  
+    
+
+    * {
+        max-width: 100%;
+        display: none;
+    }
+
+    #container {
+
+        width: 400px;
+        
+    }
+
+    img {
+        height: auto;
+    }
+}
+
+#printmsg{
+    font-size: 200px;
+    display: none;
+}
+
+@media print {
+
+    #printmsg {
+    display: block;
+    }
+
+}
+
